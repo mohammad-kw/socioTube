@@ -1,0 +1,21 @@
+what is middleware
+
+suppose we have a client and he clicks on a url (/instagram)
+
+so the process will be like there will a (req, res)
+req -> which client has sended
+res -> res can be like
+        1. res.json
+        2. res.send
+        it can be anything...
+        now suppose the req is like res.send("ms")
+        so we have to check if the client has logged in or not
+        
+    so this check which we perform in the middle is known as middleware
+
+
+some more knowledge...
+
+there are four things 
+
+(err, req, res, next)
